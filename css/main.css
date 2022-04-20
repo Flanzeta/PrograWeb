@@ -16,7 +16,12 @@
     border-radius: .5rem;
 }
 
-#exampleModal1 .precio{
-    margin-left: 10px;
-    background-color: red;
+.precio{
+    padding-top: 10px;
+    margin-left: 20px;
+    border-top: 1px lightgray solid;
+}
+
+.modal-bodyContacto p{
+    margin-left: 30px;
 }
