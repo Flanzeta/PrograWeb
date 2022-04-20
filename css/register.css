@@ -1,0 +1,12 @@
+.imagen{
+    display: flex;
+    justify-content: center;
+    width: 100;
+}
+.imagen-img {
+    width: 10rem;
+}
+
+.card-body, h2{
+    text-align: center;
+}
