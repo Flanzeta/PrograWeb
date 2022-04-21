@@ -97,7 +97,7 @@
       <div class="col-sm text-center">
         <a class="cuadro" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal3">
           <img class='producto' src="./img/producto3.jpg" alt="">
-          <h3>Chaleco de lana</h3>
+          <h3>Sally, la oveja</h3>
           <p>Precio: $392.001 CLP</p>
         </a>
         
@@ -105,13 +105,26 @@
     </div>
     <div class="row my-5">
       <div class="col-sm text-center">
-        <img class="producto" src="./img/producto4.webp" alt="producto 4">
+        <a class="cuadro" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+          <img class="producto" src="./img/producto4.webp" alt="producto 4">
+          <h3>Bordado grande</h3>
+          <p>Precio: 19.999 CLP</p>
+        </a>
+        
       </div>
       <div class="col-sm text-center">
-        <img class="producto" src="./img/producto5.webp" alt="">
+        <a class="cuadro" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+          <img class="producto" src="./img/producto5.webp" alt="cactus chikito">
+          <h3>bordado cactus</h3>
+          <p>Precio: 4.999 CLP</p>
+        </a>
       </div>
       <div class="col-sm text-center">
-        <img class="producto" src="./img/producto6.jpg" alt="">
+        <a class="cuadro" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+          <img class="producto" src="./img/producto6.jpg" alt="">
+          <h3>bordado bombilla</h3>
+          <p>Precio: 4.999 CLP</p>
+        </a>
       </div>
     </div>
   </div>
@@ -279,7 +292,143 @@
     </div>
   </div>
 </div>
+
+<!--Modal Producto 4-->
     
+<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel3">Bordado grande</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class = "img-fluid" src="./img/producto4.webp" alt="bordado grande"> 
+      </div>
+
+    <!--Acordeon 3-->
+    <div class="accordion" id="accordionExample1">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Descripci&oacute;n
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+          <div class="accordion-body">
+            <strong>Bordado grande</strong> bordado grande con distintas figuras
+            <p>ideal para usar de decoración</p>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      
+      <div class="precio">
+        <p><strong>Precio:</strong> $19.999 CLP</p>
+      </div> 
+    </div>  
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" disabled>Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Modal Producto 5-->
+    
+<div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel3">Bordado cactus</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class = "img-fluid" src="./img/producto5.webp" alt="bordado cactus"> 
+      </div>
+
+    <!--Acordeon 3-->
+    <div class="accordion" id="accordionExample1">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Descripci&oacute;n
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+          <div class="accordion-body">
+            <strong>Bordado cactus</strong> bordado pequeño con forma de cactus
+            <p>ideal para usar de decoración</p>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      
+      <div class="precio">
+        <p><strong>Precio:</strong> $4.999 CLP</p>
+      </div> 
+    </div>  
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" disabled>Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal Producto 6-->
+    
+<div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel3">Bordado bombilla</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class = "img-fluid" src="./img/producto6.jpg" alt="bordado bombilla"> 
+      </div>
+
+    <!--Acordeon 3-->
+    <div class="accordion" id="accordionExample1">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Descripci&oacute;n
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+          <div class="accordion-body">
+            <strong>Bordado bombilla</strong> bordado pequeño con forma de bombilla
+            <p>ideal para usar de decoración</p>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      
+      <div class="precio">
+        <p><strong>Precio:</strong> $4.999 CLP</p>
+      </div> 
+    </div>  
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" disabled>Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!--Modal Contacto-->
 <div class="modal fade" id="ModalContacto" tabindex="-1" role="dialog" aria-labelledby="ModalContacto" aria-hidden="true">
   <div class="modal-dialog" role="document">
