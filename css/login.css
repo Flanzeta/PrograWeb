@@ -1,12 +1,19 @@
-.imagen{
-    display: flex;
-    justify-content: center;
-    width: 100;
+.contenedor{
+    width: 80vw;
+    height: 80vh;
 }
-.imagen-img {
-    width: 10rem;
+.img-login{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    height: 100%;
 }
 
-.card-body, h2{
-    text-align: center;
+.mx-auto{
+    width: 70%;
+}
+.container-login{
+    height: 100%;
+    width: 100%;
 }
