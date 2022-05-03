@@ -1,12 +1,8 @@
-.imagen{
-    display: flex;
-    justify-content: center;
-    width: 100;
-}
-.imagen-img {
-    width: 10rem;
+body{
+    width: 100vw;
+    height: 100vh;
 }
 
-.card-body, h2{
-    text-align: center;
+.contenedor{
+    background-color: rgba(138, 138, 138, 0.027);
 }
